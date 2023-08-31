@@ -8,6 +8,10 @@ public class Coinmanager : MonoBehaviour
     public GameObject prefab;
     public GameObject cash;
 
+    void Start(){
+        cash = GameObject.FindGameObjectWithTag("Coin");
+    }
+
     void Update()
     {
         if(cash == null) {
