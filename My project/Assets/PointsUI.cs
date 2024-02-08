@@ -13,6 +13,7 @@ public class PointsUI : MonoBehaviour
     {
         text = GetComponent<TMP_Text>();
         points = GameObject.FindGameObjectWithTag("Player").GetComponent<Points>();
+        
     }
 
     void Update()

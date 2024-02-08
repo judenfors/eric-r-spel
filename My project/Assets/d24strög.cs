@@ -18,15 +18,15 @@ public class d24strög : MonoBehaviour
             transform.position += new Vector3(0,0,speed * Time.deltaTime);
         }
 
-        else if(Input.GetKey(KeyCode.S)){
+        if(Input.GetKey(KeyCode.S)){
             transform.position += new Vector3(0,0,-speed * Time.deltaTime);
         }
 
-        else if(Input.GetKey(KeyCode.A)){
+        if(Input.GetKey(KeyCode.A)){
             transform.position += new Vector3(-speed * Time.deltaTime,0,0);
         }
 
-        else if(Input.GetKey(KeyCode.D)){
+        if(Input.GetKey(KeyCode.D)){
             transform.position += new Vector3(speed * Time.deltaTime,0,0);
         }
     }
