@@ -3,10 +3,10 @@ using System;
 [Serializable]
 public class PlayerData
 {
-    public int currentScore;
+    public int currentPoints;
 
-    public PlayerData(int score)
+    public PlayerData(int level, int score)
     {
-        currentScore = score;
+        currentPoints = score;
     }
 }

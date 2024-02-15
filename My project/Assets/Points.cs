@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 
 public class Points : MonoBehaviour
@@ -9,6 +10,7 @@ public class Points : MonoBehaviour
 
     public int Point{
         get{return points;}
+        set{points = value;}
     }
 
     void Start()
